@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AndreaScacchi/Rome/issues"
   },
-  "homepage": "https://github.com/AndreaScacchi/Rome#readme"
+  "homepage": "https://github.com/AndreaScacchi/Rome#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
 }
