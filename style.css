@@ -35,7 +35,7 @@ li {
     justify-content: space-between;
     padding: 20px;
     background-color: var(--color-2);
-    color: #fff;
+    color: var(--color-1);
 }
 
 .nav-links a {
