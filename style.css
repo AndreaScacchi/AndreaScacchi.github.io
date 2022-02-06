@@ -4,6 +4,11 @@
 :root {
     --ff-stencil: 'Allerta Stencil', sans-serif;
     --ff-halant: 'Halant', sans-serif;
+    --color-1: #e79702;
+    --color-2: #000000;
+    --color-3: #ffffff;
+    --color-4: #a72100;
+    --color-5: #f5e503;
 }
 
 * {
