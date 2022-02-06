@@ -32,3 +32,9 @@ li {
 .logo {
     font-size: 32px;
 }
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
