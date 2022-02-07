@@ -159,3 +159,12 @@ input[type=checkbox] {
         background-color: var(--color-3);
     }
 }
+
+.section_1 {
+    background-image: url(../images/altare-della-patria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 53.5rem;
+    width: 100%;
+}
