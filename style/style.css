@@ -190,7 +190,7 @@ input[type=checkbox] {
 
 .scroll_down {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -205,10 +205,10 @@ input[type=checkbox] {
 
 .scroll_down span {
     display: block;
-    width: 20px;
-    height: 20px;
-    border-bottom: 1px solid var(--color-3);
-    border-right: 1px solid var(--color-3);
+    width: 30px;
+    height: 30px;
+    border-bottom: 3px solid var(--color-3);
+    border-right: 3px solid var(--color-3);
     transform: rotate(45deg);
     margin: -10px;
     animation: animate-button 2s infinite;
