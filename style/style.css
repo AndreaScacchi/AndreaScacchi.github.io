@@ -177,6 +177,9 @@ input[type=checkbox] {
     line-height: 1.35;
     margin-top: 3rem;
     animation: color-change 10s infinite;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
 @keyframes color-change {
