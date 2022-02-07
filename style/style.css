@@ -174,5 +174,12 @@ input[type=checkbox] {
     margin-top: 5rem;
     margin-left: 35rem;
     font-size: 5rem;
-    color: var(--color-1);
+    /*color: var(--color-1);*/
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+    25%{color: var(--color-1);}
+    50%{color: var(--color-3);}
+    75%{color: var(--color-4);}
 }
