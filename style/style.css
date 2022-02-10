@@ -9,7 +9,7 @@
     --color-2: #000000;
     --color-3: #ffffff;
     --color-4: #a72100;
-    --color-5: #f5e503;
+    --color-5: #690606;
 }
 
 * {
@@ -241,6 +241,12 @@ input[type=checkbox] {
     }
 }
 
+#section_1 {
+    background-color: var(--color-5);
+    color: var(--color-3);
+    font-family: var(--ff-halant);
+}
+
 #section_1 > .rome {
     display: flex;
     flex-direction: column;
@@ -250,4 +256,11 @@ input[type=checkbox] {
 #section_1 > .rome > h2 {
     font-size: 2rem;
     text-transform: capitalize;
+}
+
+#section_1 > .rome > p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    line-height: 2;
 }
