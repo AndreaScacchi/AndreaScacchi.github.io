@@ -185,7 +185,7 @@ input[type=checkbox] {
     line-height: 1em;
 }
 
-.header_div h1 {
+.header_div > h1 {
     font-size: 5rem;
     line-height: 1.35;
     margin-top: 3rem;
