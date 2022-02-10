@@ -160,7 +160,7 @@ input[type=checkbox] {
     }
 }
 
-.ml2 {
+/*.ml2 {
     font-weight: 900;
     font-size: 3.5em;
 }
@@ -168,7 +168,7 @@ input[type=checkbox] {
 .ml2 .letter {
     display: inline-block;
     line-height: 1em;
-}
+}*/
 
 .header {
     background-image: url(../images/altare-della-patria.jpg);
@@ -180,6 +180,16 @@ input[type=checkbox] {
     padding: 0 3rem;
     align-items: center;
     flex-direction: column;
+}
+
+.header_div > .anime {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.header_div > .anime > .letter {
+    display: inline-block;
+    line-height: 1em;
 }
 
 /*.header_div h1 {
