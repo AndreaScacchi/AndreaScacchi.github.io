@@ -192,11 +192,11 @@ input[type=checkbox] {
     line-height: 1em;
 }
 
-/*.header_div h1 {
+.header_div h1 {
     font-size: 5rem;
     line-height: 1.35;
     margin-top: 3rem;
-    animation: color-change 10s infinite;
+    animation: color-change 15s infinite;
     letter-spacing: 0.02em;
     font-weight: 300;
     text-transform: capitalize;
@@ -206,7 +206,7 @@ input[type=checkbox] {
     25%{color: var(--color-1);}
     50%{color: var(--color-3);}
     75%{color: var(--color-4);}
-}*/
+}
 
 .scroll_down {
     position: absolute;
