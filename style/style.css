@@ -160,6 +160,21 @@ input[type=checkbox] {
     }
 }
 
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+
 .header {
     background-image: url(../images/altare-della-patria.jpg);
     background-size: cover;
@@ -172,7 +187,7 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
-.header_div h1 {
+/*.header_div h1 {
     font-size: 5rem;
     line-height: 1.35;
     margin-top: 3rem;
@@ -186,7 +201,7 @@ input[type=checkbox] {
     25%{color: var(--color-1);}
     50%{color: var(--color-3);}
     75%{color: var(--color-4);}
-}
+}*/
 
 .scroll_down {
     position: absolute;
