@@ -162,6 +162,7 @@ input[type=checkbox] {
     }
 }
 
+/* Set the header with a background and a title*/
 .header {
     background-image: url(../images/altare-della-patria.jpg);
     background-size: cover;
