@@ -203,9 +203,9 @@ input[type=checkbox] {
 }
 
 @keyframes color-change {
-    25%{color: var(--color-1);}
-    50%{color: var(--color-3);}
-    75%{color: var(--color-4);}
+    60%{color: var(--color-1);}
+    40%{color: var(--color-3);}
+    /*75%{color: var(--color-4);}*/
 }
 
 .scroll_down {
