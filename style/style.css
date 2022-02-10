@@ -251,11 +251,13 @@ input[type=checkbox] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em;
 }
 
 #section_1 > .rome > h2 {
     font-size: 2rem;
     text-transform: capitalize;
+    margin-bottom: 2rem;
 }
 
 #section_1 > .rome > p {
