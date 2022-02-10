@@ -176,23 +176,22 @@ input[type=checkbox] {
 }
 
 .header_div > .anime {
-    font-weight: 900;
+    /*font-weight: 900;*/
     font-size: 3.5em;
 }
 
 .header_div > .anime > .letter {
     display: inline-block;
-    line-height: 1em;
 }
 
 .header_div > h1 {
-    font-size: 5rem;
     line-height: 1.35;
     margin-top: 3rem;
+    text-align: center;
     animation: color-change 15s infinite;
     letter-spacing: 0.02em;
     font-weight: 300;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 @keyframes color-change {
@@ -240,4 +239,15 @@ input[type=checkbox] {
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
     }
+}
+
+#section_1 > .rome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_1 > .rome > h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
 }
