@@ -30,6 +30,7 @@ li {
     list-style-type: none;
 }
 
+/* style a dropdown navbar */
 .navbar {
     display: flex;
     align-items: center;
