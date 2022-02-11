@@ -254,6 +254,7 @@ input[type=checkbox] {
     background-position: center;
     /*background-color: var(--color-5);*/
     color: var(--color-3);
+    font-weight: bold;
     font-family: var(--ff-halant);
 }
 
@@ -299,4 +300,8 @@ input[type=checkbox] {
     border-radius: 2rem;
     text-transform: uppercase;
     padding: 0.5rem;
+}
+
+#section_1 > .rome > .explore_btn > a:hover {
+    opacity: 1;
 }
