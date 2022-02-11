@@ -20,7 +20,6 @@ anime.timeline({loop: true})
         delay: 2000
     });
 
-    AOS.int({
-        disable: false,
-        startEvent: 'DOMContentLoaded'
-    });
+AOS.init({
+    //startEvent: "DOMContentLoaded",
+});
