@@ -242,6 +242,10 @@ input[type=checkbox] {
 }
 
 #section_1 {
+    background-image: url(../images/fori-imperiali.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: var(--color-5);
     opacity: 0.8;
     color: var(--color-3);
