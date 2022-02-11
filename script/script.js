@@ -21,5 +21,10 @@ anime.timeline({loop: true})
     });
 
 AOS.init({
-    //startEvent: "DOMContentLoaded",
+    startEvent: "DOMContentLoaded",
+    duration: 2000,
+    delay: 0,
+    easing: "ease",
+    once: false,
+    mirror: false,
 });
