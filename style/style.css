@@ -242,14 +242,23 @@ input[type=checkbox] {
 }
 
 #section_1 {
+    position: relative;
+}
+
+#section_1 {
+    overflow: hidden;
+    opacity: 0.5;
     background-image: url(../images/fori-imperiali.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /*background-color: var(--color-5);*/
-    opacity: 0.8;
     color: var(--color-3);
     font-family: var(--ff-halant);
+}
+
+#section_1:hover {
+    opacity: 1;
 }
 
 #section_1 > .rome {
