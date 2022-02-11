@@ -246,7 +246,7 @@ input[type=checkbox] {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--color-5);
+    /*background-color: var(--color-5);*/
     opacity: 0.8;
     color: var(--color-3);
     font-family: var(--ff-halant);
