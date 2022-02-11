@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndreaScacchi/Rome.git"
@@ -18,5 +16,7 @@
   },
   "homepage": "https://github.com/AndreaScacchi/Rome#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "aos": "^2.3.4"
+  }
 }
