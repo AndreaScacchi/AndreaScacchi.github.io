@@ -16,7 +16,5 @@
   },
   "homepage": "https://github.com/AndreaScacchi/Rome#readme",
   "dependencies": {},
-  "devDependencies": {
-    "aos": "^2.3.4"
-  }
+  "devDependencies": {}
 }
