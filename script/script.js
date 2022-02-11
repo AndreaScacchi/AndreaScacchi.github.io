@@ -19,3 +19,5 @@ anime.timeline({loop: true})
         easing: "easeOutExpo",
         delay: 2000
     });
+
+    AOS.int();
