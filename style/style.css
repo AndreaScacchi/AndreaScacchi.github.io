@@ -324,3 +324,26 @@ input[type=checkbox] {
     height: 100vh;  
     justify-content: center;
 }
+
+#section_2 > .monuments .guides > .guide_card {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+#section_2 > .monuments .guides:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#section_2 > .monuments .guides > .guide_card >.guide_container {
+    box-shadow: 0 0 7px #000;
+    padding: 14px;
+    text-align: center;
+    background-color: #000;
+    color: rgb(218, 161, 7);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: -4.2em;
+}
