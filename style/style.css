@@ -312,3 +312,15 @@ input[type=checkbox] {
     color: var(--color-2);
     font-family: var(--ff-halant);
 }
+
+#section_2 > .monuments > .places_guide{
+    text-align: center;
+}
+
+#section_2 > .monuments .guides {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    place-items: center;
+    height: 100vh;  
+    justify-content: center;
+}
