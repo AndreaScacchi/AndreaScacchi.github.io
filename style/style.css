@@ -305,3 +305,10 @@ input[type=checkbox] {
 #section_1 > .rome > .explore_btn > a:hover {
     opacity: 1;
 }
+
+#section_2 {
+    overflow: hidden;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    font-family: var(--ff-halant);
+}
