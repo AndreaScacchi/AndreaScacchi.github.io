@@ -21,7 +21,7 @@ anime.timeline({loop: true})
         delay: 2000
     });
 
-// Initialize AOS library to perform animation on sections
+// Initialize AOS library to create dynamic sections
 AOS.init({
     startEvent: "DOMContentLoaded",
     duration: 2000,
