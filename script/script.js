@@ -3,6 +3,7 @@
 var textWrapper = document.querySelector('.anime');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+// Set Anime library to perform the animation on title
 anime.timeline({loop: true})
     .add({
         targets: '.anime .letter',
