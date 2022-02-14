@@ -273,6 +273,7 @@ input[type=checkbox] {
     font-size: 2rem;
     text-transform: capitalize;
     margin-bottom: 2rem;
+    font-family: var(--ff-stencil);
 }
 
 #section_1 > .rome > p {
@@ -319,6 +320,7 @@ input[type=checkbox] {
     margin-bottom: 0.2rem;
     font-size: 2rem;
     text-transform: capitalize;
+    font-family: var(--ff-stencil);
 }
 
 .guide_card {
