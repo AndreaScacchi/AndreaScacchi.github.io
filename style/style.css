@@ -308,42 +308,109 @@ input[type=checkbox] {
 
 #section_2 {
     overflow: hidden;
-    background-color: var(--color-1);
+    background-color: rgb(175, 175, 175);
     color: var(--color-2);
     font-family: var(--ff-halant);
 }
 
-#section_2 > .monuments > .places_guide{
+.places_guide{
     text-align: center;
+    margin: 2rem;
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
 }
 
-#section_2 > .monuments .guides {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    place-items: center;
-    height: 100vh;  
-    justify-content: center;
+.guide_card {
+    margin: 2rem 0;
+    background: var(--color-1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--color-2);
+    transition: all 0.3s linear;
 }
 
-#section_2 > .monuments .guides > .guide_card {
-    float: left;
+.guide_card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px var(--color-3);
+}
+
+.service-img {
+    height: 17rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
     width: 100%;
-    padding: 0 10px;
+    display: block;
 }
 
-#section_2 > .monuments .guides:after {
+.guides::after,.guides::before {
     content: '';
-    display: table;
     clear: both;
+    display: table;
 }
 
-#section_2 > .monuments .guides > .guide_card >.guide_container {
-    box-shadow: 0 0 7px #000;
-    padding: 14px;
+.guides {
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+    .guides {
+        width: 95vw;
+        padding: 4rem 1rem;
+    }
+}
+
+.service-info {
     text-align: center;
-    background-color: #000;
-    color: rgb(218, 161, 7);
-    transition: all 0.3s;
-    cursor: pointer;
-    margin-top: -4.2em;
+    padding: 3rem 1rem 2.5rem 1rem;
+}
+
+.service-info p {
+    max-width: 20rem;
+    color: var(--color-3);
+    margin: 0 auto;
+}
+
+.service-btn {
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    padding: 0.375rem 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    margin: 1.25rem;
+}
+
+.service-img-container {
+    position: relative;
+}
+
+.service-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    font-size: 2rem;
+    color: var(--color-2);
+    background: var(--color-3);
+    padding: 0.25rem 0.6rem;
+    border-radius: 50%;
+    transform: translate(-50%, 50%);
+    border: 0.375rem solid var(--color-5);
+}
+
+@media screen and (min-width: 768px) {
+    .guide_card {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .guide_card {
+        width: 30%;
+        margin-right: 3.333%;
+    }
 }
