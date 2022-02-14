@@ -308,7 +308,7 @@ input[type=checkbox] {
 
 #section_2 {
     overflow: hidden;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(230, 229, 229);
     color: var(--color-2);
     font-family: var(--ff-halant);
 }
