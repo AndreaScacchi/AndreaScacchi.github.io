@@ -325,7 +325,7 @@ input[type=checkbox] {
 
 .guide_card {
     margin: 2rem 0;
-    background: var(--color-1);
+    background: var(--color-3);
     border-radius: 10px;
     box-shadow: 0 5px 15px var(--color-2);
     transition: all 0.3s linear;
@@ -333,7 +333,7 @@ input[type=checkbox] {
 
 .guide_card:hover {
     transform: scale(1.02);
-    box-shadow: 0 5px 15px var(--color-3);
+    box-shadow: 0 5px 15px var(--color-1);
 }
 
 .service-img {
@@ -370,19 +370,29 @@ input[type=checkbox] {
     padding: 3rem 1rem 2.5rem 1rem;
 }
 
+.service-info h4 {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: var(--color-1);
+}
+
 .service-info p {
     max-width: 20rem;
-    color: var(--color-3);
+    color: var(--color-2);
+    font-weight: 700;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .service-btn {
-    font-size: 0.75rem;
-    text-transform: capitalize;
-    padding: 0.375rem 0.5rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 0.375rem 0.75rem;
     border-radius: 0.5rem;
-    font-weight: 400;
-    margin: 1.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    background-color: var(--color-2);
+    color: var(--color-1);
 }
 
 .service-img-container {
