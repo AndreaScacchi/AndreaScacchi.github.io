@@ -343,7 +343,7 @@ input[type=checkbox] {
     box-shadow: 0 5px 15px var(--color-1);
 }
 
-.service-img {
+.guide_img {
     height: 17rem;
     object-fit: cover;
     border-top-left-radius: 0.5rem;
@@ -365,18 +365,18 @@ input[type=checkbox] {
     max-width: 1170px;
 }
 
-.service-info {
+.guide_info {
     text-align: center;
     padding: 3rem 1rem 2.5rem 1rem;
 }
 
-.service-info h4 {
+.guide_info h4 {
     text-transform: capitalize;
     font-size: 1.2rem;
     color: var(--color-1);
 }
 
-.service-info p {
+.guide_info p {
     max-width: 20rem;
     color: var(--color-2);
     font-weight: 700;
@@ -384,7 +384,7 @@ input[type=checkbox] {
     margin-bottom: 2rem;
 }
 
-.service-btn {
+.guide_btn {
     font-size: 0.875rem;
     text-transform: uppercase;
     padding: 0.375rem 0.75rem;
@@ -395,11 +395,11 @@ input[type=checkbox] {
     color: var(--color-1);
 }
 
-.service-img-container {
+.guide_img_container {
     position: relative;
 }
 
-.service-icon {
+.guide_icon {
     position: absolute;
     left: 50%;
     bottom: 0;
