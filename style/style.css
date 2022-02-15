@@ -69,7 +69,7 @@ li {
     transition: 0.3s ease;
 }
 
-.services {
+.menu_places {
     position: relative;
 }
 
@@ -96,7 +96,7 @@ li {
     background-color: var(--color-3);
 }
 
-.services:hover .dropdown {
+.menu_places:hover .dropdown {
     display: block;
 }
 
