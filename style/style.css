@@ -330,6 +330,19 @@ input[type=checkbox] {
     text-shadow: 2px 2px 4px var(--color-3);
 }
 
+.guides {
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.guides::after,.guides::before {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 .guide_card {
     margin: 2rem 0;
     background: var(--color-3);
@@ -350,19 +363,6 @@ input[type=checkbox] {
     border-top-right-radius: 0.5rem;
     width: 100%;
     display: block;
-}
-
-.guides::after,.guides::before {
-    content: '';
-    clear: both;
-    display: table;
-}
-
-.guides {
-    padding: 4rem 0;
-    width: 85vw;
-    margin: 0 auto;
-    max-width: 1170px;
 }
 
 .guide_info {
