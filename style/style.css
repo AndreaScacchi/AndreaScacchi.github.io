@@ -195,6 +195,7 @@ input[type=checkbox] {
     text-transform: uppercase;
 }
 
+/* Use animations to change the title color */
 @keyframes color-change {
     60%{color: var(--color-1);}
     40%{color: var(--color-3);}
