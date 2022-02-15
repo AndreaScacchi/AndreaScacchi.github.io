@@ -228,6 +228,7 @@ input[type=checkbox] {
     animation: animate-button 2s infinite;
 }
 
+/* Use animations to create an animate arrow button */
 @keyframes animate-button {
     0% {opacity: 0;
         transform: rotate(45deg) translate(-20px, -20px);
