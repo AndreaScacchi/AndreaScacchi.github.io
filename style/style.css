@@ -311,6 +311,7 @@ input[type=checkbox] {
     opacity: 1;
 }
 
+/* Start styling the second section */
 #section_2 {
     overflow: hidden;
     background-color: rgb(230, 229, 229);
