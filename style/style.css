@@ -356,6 +356,10 @@ input[type=checkbox] {
     box-shadow: 0 5px 15px var(--color-1);
 }
 
+.guide_img_container {
+    position: relative;
+}
+
 .guide_img {
     height: 17rem;
     object-fit: cover;
@@ -393,10 +397,6 @@ input[type=checkbox] {
     margin-top: 2rem;
     background-color: var(--color-2);
     color: var(--color-1);
-}
-
-.guide_img_container {
-    position: relative;
 }
 
 .guide_icon {
