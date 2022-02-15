@@ -256,6 +256,7 @@ input[type=checkbox] {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     /*background-color: var(--color-5);*/
     color: var(--color-3);
     font-weight: bold;
