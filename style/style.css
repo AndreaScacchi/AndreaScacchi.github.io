@@ -438,3 +438,82 @@ input[type=checkbox] {
 
 /* Start styling the third section */
 /* Small screen layout setup */
+#section_3 {
+    padding: 5rem 0;
+}
+
+.section_title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.section-center {
+    width: 90vw;
+    margin: auto;
+    max-width: 1170px;
+}
+
+.service {
+    background: var(--color-2);
+    color: var(--color-3);
+    padding: 3rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+    text-align: center;
+}
+
+.service:hover {
+    background: var(--color-1);
+    color: var(--color-3);
+}
+
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service .underline {
+    width: 3rem;
+    height: 0.12rem;
+    transition: all 0.3s linear;
+    background: var(--color-1);
+    margin-bottom: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service:hover .underline {
+    background: var(--color-3);
+}
+
+.service p {
+    transition: all 0.3s linear;
+    color: var(--color-3);
+    margin-bottom: 1.25rem;
+}
+
+.service:hover p {
+    color: var(--color-3);
+}
+
+@media screen and (min-width: 676px) {
+    .services-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        -moz-column-gap: 2rem;
+            column-gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .services-center {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        width: 95vw;
+    }
+}
