@@ -510,7 +510,7 @@ input[type=checkbox] {
 }
 
 @media screen and (min-width: 676px) {
-    .services-center {
+    .cards_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         -moz-column-gap: 2rem;
@@ -519,7 +519,7 @@ input[type=checkbox] {
 }
 
 @media screen and (min-width: 992px) {
-    .services-center {
+    .cards_container {
         grid-template-columns: 1fr 1fr;
     }
 }
