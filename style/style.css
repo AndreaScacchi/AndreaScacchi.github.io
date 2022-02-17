@@ -247,6 +247,7 @@ input[type=checkbox] {
 /* Start styling the first section */
 #section_1 {
     position: relative;
+    padding: 5rem 0;
 }
 
 #section_1 {
@@ -318,6 +319,7 @@ input[type=checkbox] {
     background-color: rgb(230, 229, 229);
     color: var(--color-2);
     font-family: var(--ff-halant);
+    padding: 5rem 0;
 }
 
 .places_guide{
