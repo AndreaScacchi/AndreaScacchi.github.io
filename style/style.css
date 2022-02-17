@@ -469,8 +469,8 @@ input[type=checkbox] {
 }
 
 .service:hover {
-    background: var(--color-1);
-    color: var(--color-3);
+    background: var(--color-3);
+    color: var(--color-2);
 }
 
 .service h4 {
@@ -496,7 +496,7 @@ input[type=checkbox] {
 }
 
 .service:hover .underline {
-    background: var(--color-3);
+    background: var(--color-5);
 }
 
 .service p {
@@ -506,7 +506,7 @@ input[type=checkbox] {
 }
 
 .service:hover p {
-    color: var(--color-3);
+    color: var(--color-2);
 }
 
 @media screen and (min-width: 676px) {
