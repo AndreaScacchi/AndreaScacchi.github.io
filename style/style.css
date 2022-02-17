@@ -442,11 +442,14 @@ input[type=checkbox] {
 /* Small screen layout setup */
 #section_3 {
     padding: 5rem 0;
+    background-color: #e79702;
 }
 
-.section_title {
+.section_title h2 {
     margin-bottom: 4rem;
     text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
 }
 
 .section-center {
