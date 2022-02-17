@@ -468,6 +468,13 @@ input[type=checkbox] {
     color: var(--color-3);
 }
 
+.service h4 {
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+    text-transform: capitalize;
+    letter-spacing: 0.10rem;
+}
+
 .service-icon {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -508,7 +515,7 @@ input[type=checkbox] {
 
 @media screen and (min-width: 992px) {
     .services-center {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
