@@ -452,7 +452,7 @@ input[type=checkbox] {
     text-transform: capitalize;
 }
 
-.section-center {
+.section_center {
     width: 90vw;
     margin: auto;
     max-width: 1170px;
@@ -525,7 +525,7 @@ input[type=checkbox] {
 }
 
 @media screen and (min-width: 992px) {
-    .section-center {
+    .section_center {
         width: 95vw;
     }
 }
