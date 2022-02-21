@@ -314,7 +314,7 @@ input[type=checkbox] {
 }
 
 /* Start styling the second section */
-#section_2 {
+#section_3 {
     overflow: hidden;
     background-color: rgb(230, 229, 229);
     color: var(--color-2);
@@ -440,7 +440,7 @@ input[type=checkbox] {
 
 /* Start styling the third section */
 /* Small screen layout setup */
-#section_3 {
+#section_2 {
     padding: 5rem 0;
     background-color: #e79702;
 }
