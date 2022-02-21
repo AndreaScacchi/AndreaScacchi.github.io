@@ -32,14 +32,6 @@ li {
 }
 
 /* style a dropdown navbar */
-.navbar_fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-}
-
 .navbar {
     display: flex;
     align-items: center;

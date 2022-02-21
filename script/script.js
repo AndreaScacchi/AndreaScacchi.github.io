@@ -30,6 +30,3 @@ AOS.init({
     once: false,
     mirror: false,
 });
-
-/* Global variables */
-const nav = document.getElementById("navbar_id");
