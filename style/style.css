@@ -556,8 +556,9 @@ input[type=checkbox] {
 
 .wrapper > header {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .wrapper > form {
@@ -574,6 +575,8 @@ input[type=checkbox] {
 form p {
     font-size: 18px;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .wrapper form input {
@@ -638,6 +641,8 @@ form .drop-list .icon {
 
 form > .exchange-rate {
     font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
     margin: 20px 0 30px;
 }
 
