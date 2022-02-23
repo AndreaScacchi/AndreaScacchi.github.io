@@ -58,3 +58,23 @@ function loadFlag(element) {
         }
     }
 }
+
+window.add.addEventListener("load", () => {
+    getExchangeRate();
+});
+
+getButton.addEventListener("click", e => {
+    e.preventDefault();
+    getExchangeRate();
+});
+
+/* Implemented the exchange icon */
+const exchangeIcon = document.querySelector('form .icon');
+exchangeIcon.addEventListener("click", () => {
+    let tempCode = fromCurrency.value;
+    fromCurrency.value = toCurrency.value;
+    toCurrency.value = tempCode;
+    loadFlag(fromCurrency);
+    loadFlag(toCurrency);
+    getExchangeRate();
+})
