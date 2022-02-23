@@ -98,3 +98,6 @@ function getExchangeRate() {
         exchangeRateTxt.innerText = "Something went wrong";
     });
 }
+
+/* Button ripple */
+const button = document.querySelector('.btn_exchange');
