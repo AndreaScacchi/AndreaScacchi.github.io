@@ -605,7 +605,7 @@ form .drop-list .select-box {
     align-items: center;
     border-radius: 5px;
     justify-content: center;
-    border: 1px solid #999;
+    border: 1px solid var(--color-2);
 }
 
 form .drop-list .select-box img {
@@ -624,13 +624,13 @@ form .drop-list .select-box select::-webkit-scrollbar {
 }
 
 form .drop-list .select-box select::-webkit-scrollbar-track {
-    background: #fff;
+    background: var(--color-1);
 }
 
 form .drop-list .select-box select::-webkit-scrollbar-thumb {
-    background: #888;
+    background: var(--color-2);
     border-radius: 8px;
-    border-right: 2px solid #ffffff;
+    border-right: 2px solid var(--color-2);
 }
 
 form .drop-list .icon {
