@@ -650,6 +650,7 @@ form > button {
     height: 52px;
     color: #fff;
     font-size: 17px;
+    text-transform: uppercase;
     cursor: pointer;
     background: var(--color-1);
     transition: 0.5s ease-in-out;
