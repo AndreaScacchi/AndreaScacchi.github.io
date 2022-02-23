@@ -30,3 +30,9 @@ AOS.init({
     once: false,
     mirror: false,
 });
+
+/* Currency converter */
+const dropList = document.querySelectorAll('form select');
+const fromCurrency = document.querySelector('.from select');
+const toCurrency = document.querySelector('.to select');
+const getButton = document.querySelector('form button');
