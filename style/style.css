@@ -651,10 +651,10 @@ form > button {
     color: #fff;
     font-size: 17px;
     cursor: pointer;
-    background: #675AFE;
+    background: var(--color-1);
     transition: 0.3s ease;
 }
 
 form > button:hover {
-    background: #4534fe;
+    background: var(--color-2);
 }
