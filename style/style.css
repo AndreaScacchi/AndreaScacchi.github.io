@@ -561,3 +561,11 @@ input[type=checkbox] {
 .wrapper > form {
     margin: 40px 0 20px 0;
 }
+
+.wrapper > form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
