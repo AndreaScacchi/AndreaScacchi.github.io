@@ -36,3 +36,15 @@ const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
 const toCurrency = document.querySelector('.to select');
 const getButton = document.querySelector('form button');
+
+/* Select country from the drop list */
+for(let i = 0; i < dropList.length; i++) {
+    for(let currency_code in country_list) {
+        let selected = i == 0 ? currency_code == "USD" ? "selected" : "" : currency_code == "NPR" ? "selected" : "";
+        let optionTag = `<option value="${currency_code}" ${selected}>${currency_code}</option>`;
+        dropList[i].insertAdjacentHTML("before", optionTag);
+    }
+    dropList[i].addEventListener("change", e => {
+        loadFlag(e.target);
+    });
+}
