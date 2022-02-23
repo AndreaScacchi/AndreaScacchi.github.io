@@ -569,3 +569,7 @@ input[type=checkbox] {
     border: none;
 }
 
+form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
