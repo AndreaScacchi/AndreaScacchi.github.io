@@ -100,4 +100,17 @@ function getExchangeRate() {
 }
 
 /* Button ripple */
-const button = document.querySelector('.btn_exchange');
+const button = document.querySelectorAll('.btn_exchange');
+button.forEach((btn) => {
+    btn.onclick = function(e) {
+        let x = e.clientX - e.target.offsetLeft;
+        let y = e.clientY - e.target.offsetTop;
+        let ripple = document.createElement('span');
+        ripple.style.left = `${x}px`;
+        ripple.style.top = `${y}px`;
+        this.appendChild(ripple);
+        setTimeout(function() {
+            ripple.remove();
+        }, 600);
+    }
+});
