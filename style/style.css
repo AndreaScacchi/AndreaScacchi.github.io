@@ -606,3 +606,30 @@ form .drop-list .select-box {
 form .drop-list .select-box img {
     max-width: 21px;
 }
+
+form .drop-list .select-box select {
+    width: auto;
+    font-size: 16px;
+    background: none;
+    margin: 0 -5px 0 5px;
+}
+
+form .drop-list .select-box select::-webkit-scrollbar {
+    width: 8px;
+}
+
+form .drop-list .select-box select::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+form .drop-list .select-box select::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+}
+
+form .drop-list .icon {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+}
