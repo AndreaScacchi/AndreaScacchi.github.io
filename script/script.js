@@ -48,3 +48,13 @@ for(let i = 0; i < dropList.length; i++) {
         loadFlag(e.target);
     });
 }
+
+/* Function to load the flag country */
+function loadFlag(element) {
+    for(let code in country_list) {
+        if(code == element.value) {
+            let imgTag = element.parentElement.querySelector('img');
+            imgTag.src = `https://flagcdn.com/48x36/${country_list[code].toLowerCase()}.png`;
+        }
+    }
+}
