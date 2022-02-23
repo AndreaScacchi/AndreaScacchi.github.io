@@ -652,7 +652,7 @@ form > button {
     font-size: 17px;
     cursor: pointer;
     background: var(--color-1);
-    transition: 0.3s ease;
+    transition: 0.5s ease-in-out;
 }
 
 form > button:hover {
