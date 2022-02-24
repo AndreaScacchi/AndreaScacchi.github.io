@@ -813,3 +813,23 @@ footer .container .sec.aboutus p {
 .quickLinks ul li a:hover {
     color: var(--color-1);
 }
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: var(--color-1);
+    font-size: 20px;
+    margin-right: 10px;
+}
