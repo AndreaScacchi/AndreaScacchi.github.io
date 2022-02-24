@@ -842,3 +842,11 @@ footer .container .sec.aboutus p {
 .contact .info li a:hover {
     color: var(--color-2);
 }
+
+.copy {
+    width: 100%;
+    background: var(--color-1);
+    padding: 8px 100px;
+    text-align: center;
+    color: var(--color-2);
+}
