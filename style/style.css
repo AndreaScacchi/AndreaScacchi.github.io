@@ -181,7 +181,7 @@ input[type=checkbox] {
 .progress_container {
     width: 100%;
     height: 8px;
-    background: #ccc;
+    background: var(--color-2);
     position: absolute;
     margin-top: 5rem;
     margin-left: -1.3rem;
@@ -190,7 +190,7 @@ input[type=checkbox] {
 
 .progress_indicator {
     height: 8px;
-    background: green;
+    background: var(--color-1);
     width: 0%;
 }
 
