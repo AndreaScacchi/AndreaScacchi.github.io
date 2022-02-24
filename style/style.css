@@ -833,3 +833,12 @@ footer .container .sec.aboutus p {
     font-size: 20px;
     margin-right: 10px;
 }
+
+.contact .info li a {
+    color: var(--color-5);
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: var(--color-2);
+}
