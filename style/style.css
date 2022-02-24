@@ -850,3 +850,26 @@ footer .container .sec.aboutus p {
     text-align: center;
     color: var(--color-2);
 }
+
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .container .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .container .sec.aboutus, .quickLinks, .contact {
+        width: 100%;
+    }
+
+    .copy {
+        padding: 8px 40px;
+    }
+}
