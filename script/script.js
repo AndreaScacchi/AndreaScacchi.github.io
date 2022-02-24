@@ -45,6 +45,15 @@ window.addEventListener('scroll', function() {
     }
 })
 
+/* Scroll indicator */
+window.onscroll = function() {scrollIndicator()};
+function scrollIndicator() {
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    document.getElementById('progress_bar').style.width = scrolled + '%';
+}
+
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');

@@ -23,6 +23,10 @@ body {
     font-family: var(--ff-stencil);
 }
 
+html {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -171,6 +175,23 @@ input[type=checkbox] {
     width: 100%;
     z-index: 2;
     background: var(--color-2);
+}
+
+/* Scroll indicator */
+.progress_container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -1.3rem;
+    overflow: hidden;
+}
+
+.progress_indicator {
+    height: 8px;
+    background: green;
+    width: 0%;
 }
 
 /* Set the header with a background and a title*/
