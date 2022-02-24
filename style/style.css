@@ -661,7 +661,7 @@ form > button:hover {
 }
 
 /* Footer */
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
     .footer-div {
         font-size: 14px;
     }
@@ -679,7 +679,7 @@ form > button:hover {
     .footer-div .footer-link {
         font-size: 12px;
     }
-}
+}*/
 
 /*.footer {
     background: var(--color-2);
@@ -712,11 +712,12 @@ form > button:hover {
     line-height: 2;
 }*/
 
-.footer {
+/*.footer {
     text-align: center;
     padding: 2rem;
     height: 30vh;
     background: var(--color-1);
+    overflow: hidden;
 }
 
 .footer-links {
@@ -739,4 +740,5 @@ form > button:hover {
 	letter-spacing:  0.25rem;
 	color: var(--color-3);
     line-height: 2;
-}
+    margin-top: 2rem;
+}*/
