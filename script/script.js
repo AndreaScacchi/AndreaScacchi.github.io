@@ -31,6 +31,10 @@ AOS.init({
     mirror: false,
 });
 
+/* Set date for copyright */
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();
+
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
