@@ -163,6 +163,16 @@ input[type=checkbox] {
     }
 }
 
+/* Fixed Navbar */
+.navbar_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: var(--color-2);
+}
+
 /* Set the header with a background and a title*/
 .header {
     background-image: url(../images/altare-della-patria.jpg);

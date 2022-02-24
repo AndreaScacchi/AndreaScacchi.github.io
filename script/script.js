@@ -35,6 +35,16 @@ AOS.init({
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
 
+/* Fixed Navbar */
+const navbar = document.getElementById('navbar_id');
+window.addEventListener('scroll', function() {
+    if(window.scrollY > 1) {
+        navbar.classList.add('navbar_fixed');
+    } else {
+        navbar.classList.remove('navbar_fixed');
+    }
+})
+
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
