@@ -793,3 +793,23 @@ footer .container h2:before {
 footer .container .sec.aboutus p {
     color: var(--color-5);
 }
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a {
+    color: var(--color-2);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    color: var(--color-1);
+}
