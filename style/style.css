@@ -742,3 +742,54 @@ form > button:hover {
     line-height: 2;
     margin-top: 2rem;
 }*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 30vh;
+    flex-direction: column;
+    background: var(--color-1);
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: var(--color-3);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec {
+    margin-right: 30px;
+}
+
+footer .container .sec.aboutus {
+    width: 40%;
+}
+
+footer .container .sec.aboutus h2 {
+    position: relative;
+    color: var(--color-2);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container .sec.aboutus h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: var(--color-1);
+}
+
+footer .container .sec.aboutus p {
+    color: var(--color-5);
+}
