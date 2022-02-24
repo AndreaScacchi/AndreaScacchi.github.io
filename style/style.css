@@ -773,14 +773,14 @@ footer .container .sec.aboutus {
     width: 40%;
 }
 
-footer .container .sec.aboutus h2 {
+footer .container h2 {
     position: relative;
     color: var(--color-2);
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-footer .container .sec.aboutus h2:before {
+footer .container h2:before {
     content: '';
     position: absolute;
     bottom: -5px;
