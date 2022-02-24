@@ -750,12 +750,11 @@ footer {
     align-items: center;
     min-height: 30vh;
     flex-direction: column;
-    background: var(--color-1);
     position: relative;
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: var(--color-3);
+    background: var(--color-2);
 }
 
 footer .container {
@@ -775,9 +774,10 @@ footer .container .sec.aboutus {
 
 footer .container h2 {
     position: relative;
-    color: var(--color-2);
+    color: var(--color-1);
     font-weight: 500;
     margin-bottom: 15px;
+    font-family: var(--ff-halant);
 }
 
 footer .container h2:before {
@@ -787,11 +787,12 @@ footer .container h2:before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: var(--color-1);
+    background: var(--color-5);
 }
 
 footer .container .sec.aboutus p {
-    color: var(--color-5);
+    color: var(--color-3);
+    font-family: var(--ff-halant);
 }
 
 .quickLinks {
@@ -804,10 +805,11 @@ footer .container .sec.aboutus p {
 }
 
 .quickLinks ul li a {
-    color: var(--color-2);
+    color: var(--color-3);
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
+    font-family: var(--ff-halant);
 }
 
 .quickLinks ul li a:hover {
@@ -835,12 +837,13 @@ footer .container .sec.aboutus p {
 }
 
 .contact .info li a {
-    color: var(--color-5);
+    color: var(--color-3);
     text-decoration: none;
+    font-family: var(--ff-halant);
 }
 
 .contact .info li a:hover {
-    color: var(--color-2);
+    color: var(--color-1);
 }
 
 .copy {
@@ -848,7 +851,8 @@ footer .container .sec.aboutus p {
     background: var(--color-1);
     padding: 8px 100px;
     text-align: center;
-    color: var(--color-2);
+    color: var(--color-3);
+    font-family: var(--ff-halant);
 }
 
 @media (max-width: 991px) {
