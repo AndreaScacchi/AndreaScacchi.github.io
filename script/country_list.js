@@ -47,7 +47,7 @@ let country_list = {
     EEK: "EE",
     EGP: "EG",
     ETB: "ET",
-    EUR: "DE",
+    EUR: "IT",
     FJD: "FJ",
     FKP: "FK",
     GBP: "GB",
