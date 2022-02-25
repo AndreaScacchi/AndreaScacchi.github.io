@@ -54,6 +54,18 @@ function scrollIndicator() {
     document.getElementById('progress_bar').style.width = scrolled + '%';
 }
 
+/* Scroll down button into header */
+const scrollDown = document.querySelector('.scroll_down');
+const section1 = document.getElementById('section_1');
+
+$(function() {
+    $('.scroll_down').click(function() {
+        $('html, body').animate({ scrollTop: $('#section_1').offset().top }, 'slow');
+        return false;
+    });
+});
+
+
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
