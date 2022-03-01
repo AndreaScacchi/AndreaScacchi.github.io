@@ -31,6 +31,13 @@ AOS.init({
     mirror: false,
 });
 
+// Loading spinner
+$(window).on("load", function () {
+    setTimeout(function() {
+        $("#loading").hide();
+    }, 1000);
+}); 
+
 /* Set date for copyright */
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
@@ -145,10 +152,3 @@ function getExchangeRate() {
         exchangeRateTxt.innerText = "Something went wrong";
     });
 }
-
-// Loading spinner
-$(window).on("load", function () {
-    setTimeout(function() {
-        $("#loading").hide();
-    }, 1000);
-}); 
