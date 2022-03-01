@@ -84,6 +84,11 @@ input[type=checkbox] {
     user-select: none;
 }
 
+.header_div .second_h1 {
+    display: none;
+    font-size: 2.5em;
+}
+
 @media (max-width: 768px) {
     .nav_links a {
         color: var(--color-2);
@@ -115,6 +120,14 @@ input[type=checkbox] {
 
     .hamburger {
         display: block;
+    }
+
+    .header_div > .anime {
+        display: none;
+    }
+
+    .header_div .second_h1 {
+        display: inline-block;
     }
 }
 
