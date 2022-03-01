@@ -142,5 +142,28 @@ $(window).on("load", function () {
 }); 
 
 // Input hamburger menu
-const input = document.getElementById('checkbox_toggle');
+/*const input = document.getElementById('checkbox_toggle').checked;
 const progress_bar = document.querySelector('.progress_container');
+
+function checkInput() {
+    input.addEventListener('click', () => {
+        if (input === true) {
+            progress_bar.style.display = "none";
+                } else {
+            progress_bar.style.display = "block";
+        }
+    })
+}
+
+checkInput();*/
+
+const input = document.getElementById("checkbox_toggle");
+const progress_bar = document.querySelector(".progress_container");
+
+input.addEventListener("change", () => {
+    if(input.checked) {
+        progress_bar.style.display = "none";
+    } else {
+        progress_bar.style.display = "block";
+    }
+})
