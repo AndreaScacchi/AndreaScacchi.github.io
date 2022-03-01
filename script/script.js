@@ -35,17 +35,26 @@ AOS.init({
     mirror: false,
 });
 
-// Loading spinner using jQuery
+
+////////////////////////////////
+/* Loading spinner using jQuery */
+///////////////////////////////
 $(window).on("load", function () {
     setTimeout(function() {
         $("#loading").hide();
     }, 1000);
-}); 
+});
 
+////////////////////////////////
 /* Set date for copyright */
+///////////////////////////////
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
 
+
+////////////////////////////////
+/* HEADER */
+///////////////////////////////
 /* Fixed Navbar */
 const navbar = document.getElementById('navbar_id');
 window.addEventListener('scroll', function() {
@@ -89,6 +98,9 @@ $(function() {
 });
 
 
+////////////////////////////////
+/* SECTION_4 */
+///////////////////////////////
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
