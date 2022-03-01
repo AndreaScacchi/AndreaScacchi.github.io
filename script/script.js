@@ -133,3 +133,9 @@ function getExchangeRate() {
         exchangeRateTxt.innerText = "Something went wrong";
     });
 }
+
+$(window).on("load", function () {
+    setTimeout(function() {
+        $("#loading").hide();
+    }, 500);
+}); 
