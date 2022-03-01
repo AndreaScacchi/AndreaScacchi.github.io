@@ -31,7 +31,7 @@ AOS.init({
     mirror: false,
 });
 
-// Loading spinner
+// Loading spinner using jQuery
 $(window).on("load", function () {
     setTimeout(function() {
         $("#loading").hide();
