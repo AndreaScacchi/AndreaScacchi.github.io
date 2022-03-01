@@ -73,7 +73,7 @@ input.addEventListener("change", () => {
     }
 })
 
-/* Scroll down button into header */
+/* Scroll down button into header using jQuery*/
 const scrollDown = document.querySelector('.scroll_down');
 const section1 = document.getElementById('section_1');
 
