@@ -655,6 +655,7 @@ form > button:hover {
     background: var(--color-2);
 }
 
+/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -759,12 +760,17 @@ footer .container .sec.aboutus p {
 }
 
 .copy {
+    font-size: 1.2rem;
     width: 100%;
     background: var(--color-1);
     padding: 8px 100px;
     text-align: center;
     color: var(--color-3);
     font-family: var(--ff-halant);
+}
+
+.copy > p > a {
+    color:var(--color-2);
 }
 
 @media (max-width: 991px) {
