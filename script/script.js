@@ -134,8 +134,13 @@ function getExchangeRate() {
     });
 }
 
+// Loading spinner
 $(window).on("load", function () {
     setTimeout(function() {
         $("#loading").hide();
     }, 1000);
 }); 
+
+// Input hamburger menu
+const input = document.getElementById('checkbox_toggle');
+const progress_bar = document.querySelector('.progress_container');
