@@ -73,37 +73,6 @@ li {
     transition: 0.3s ease;
 }
 
-.menu_places {
-    position: relative;
-}
-
-.dropdown {
-    background-color: var(--color-2);
-    padding: 1em 0;
-    position: absolute;
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-}
-
-.dropdown li + li {
-    margin-top: 10px;
-}
-
-.dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-}
-
-.dropdown li:hover {
-    background-color: var(--color-3);
-}
-
-.menu_places:hover .dropdown {
-    display: block;
-}
-
 /*RESPONSIVE NAVBAR MENU STARTS*/
 input[type=checkbox] {
     display: none;
@@ -140,30 +109,12 @@ input[type=checkbox] {
         margin-top: 12px;
     }
 
-    .dropdown {
-        background-color: var(--color-2);
-    }
-
-    .dropdown li a {
-        color: var(--color-1);
-    }
-
     input[type=checkbox]:checked ~ .menu {
         display: block;
     }
 
     .hamburger {
         display: block;
-    }
-
-    .dropdown {
-        left: 50%;
-        top: 30px;
-        transform: translateX(35%);
-    }
-
-    .dropdown li:hover {
-        background-color: var(--color-3);
     }
 }
 
