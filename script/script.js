@@ -39,11 +39,20 @@ AOS.init({
 ////////////////////////////////
 /* Loading spinner using jQuery */
 ///////////////////////////////
-$(window).on("load", function () {
+/*$(window).on("load", function () {
     setTimeout(function() {
         $("#loading").hide();
     }, 1000);
-});
+});*/
+
+/* Second method to implemented the spinner before the page is loaded */
+document.onreadystatechange = function () {
+    if(document.readyState == "complete") {
+        setTimeout(function() {
+            document.getElementById('loading').style.display = "none";
+        }, 2000);
+    }
+}
 
 
 ////////////////////////////////
