@@ -45,6 +45,7 @@ $(window).on("load", function () {
     }, 1000);
 });
 
+
 ////////////////////////////////
 /* Set date for copyright */
 ///////////////////////////////
@@ -55,6 +56,7 @@ date.innerHTML = new Date().getFullYear();
 ////////////////////////////////
 /* HEADER */
 ///////////////////////////////
+
 /* Fixed Navbar */
 const navbar = document.getElementById('navbar_id');
 window.addEventListener('scroll', function() {
@@ -101,6 +103,7 @@ $(function() {
 ////////////////////////////////
 /* SECTION_4 */
 ///////////////////////////////
+
 /* Currency converter */
 const dropList = document.querySelectorAll('form select');
 const fromCurrency = document.querySelector('.from select');
