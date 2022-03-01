@@ -54,6 +54,18 @@ function scrollIndicator() {
     document.getElementById('progress_bar').style.width = scrolled + '%';
 }
 
+// Input hamburger menu
+const input = document.getElementById("checkbox_toggle");
+const progress_bar = document.querySelector(".progress_container");
+
+input.addEventListener("change", () => {
+    if(input.checked) {
+        progress_bar.style.display = "none";
+    } else {
+        progress_bar.style.display = "block";
+    }
+})
+
 /* Scroll down button into header */
 const scrollDown = document.querySelector('.scroll_down');
 const section1 = document.getElementById('section_1');
@@ -140,15 +152,3 @@ $(window).on("load", function () {
         $("#loading").hide();
     }, 1000);
 }); 
-
-// Input hamburger menu
-const input = document.getElementById("checkbox_toggle");
-const progress_bar = document.querySelector(".progress_container");
-
-input.addEventListener("change", () => {
-    if(input.checked) {
-        progress_bar.style.display = "none";
-    } else {
-        progress_bar.style.display = "block";
-    }
-})
