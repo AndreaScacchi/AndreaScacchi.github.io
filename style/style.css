@@ -239,6 +239,21 @@ input[type=checkbox] {
     }
 }
 
+/* Make the header responsive */
+@media screen and (max-width: 768px) {
+    .scroll_down span {
+        width: 25px;
+        height: 25px;
+    }
+}   
+
+@media screen and (max-width: 400px) {
+    .scroll_down span {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 /* Start styling the first section */
 #section_1 {
     position: relative;
