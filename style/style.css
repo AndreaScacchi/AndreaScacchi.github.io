@@ -129,6 +129,10 @@ input[type=checkbox] {
     .header_div .second_h1 {
         display: inline-block;
     }
+
+    body {
+        overflow: hidden;
+    }
 }
 
 /* Fixed Navbar */
@@ -841,6 +845,27 @@ form > button {
 
 form > button:hover {
     background: var(--color-2);
+}
+
+@media screen and (max-width: 415px) {
+    #section_4 > .wrapper {
+        width: 300px;
+        padding: 20px;
+    }
+
+    #section_4 > .wrapper > form > .drop-list > .from > div {
+        width: 105%;
+    }
+
+    #section_4 > .wrapper > form > .drop-list > .to > div {
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #section_4 > .wrapper > form > .drop-list > .icon {
+        font-size: 1rem;
+    }
 }
 
 /* Footer */
