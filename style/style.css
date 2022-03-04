@@ -459,6 +459,43 @@ input[type=checkbox] {
     }
 }
 
+@media screen and (max-width: 1050px) {
+    #section_1 > .rome > .explore_btn > a {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 917px) {
+    #section_1 > .rome > .explore_btn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 7rem;
+    }
+
+    #section_1 > .rome > .explore_btn > a {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section_1 > .rome > .explore_btn {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    #section_1 > .rome > .explore_btn > a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #section_1 > .rome > .explore_btn > a {
+        font-size: 0.5rem;
+        padding: 0 1rem 0 1rem;
+    }
+}
+
 /* Start styling the second section */
 /* Small screen layout setup */
 #section_2 {
