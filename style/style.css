@@ -947,6 +947,12 @@ footer .container .sec.aboutus p {
     margin-right: 0 !important;
 }
 
+.contact > p {
+    color: var(--color-3);
+    font-size: 16px;
+    font-family: var(--ff-halant);
+}
+
 .contact .info {
     position: relative;
 }
