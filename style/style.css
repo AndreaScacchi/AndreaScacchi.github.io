@@ -978,6 +978,10 @@ footer .container .sec.aboutus p {
     color: var(--color-1);
 }
 
+.contact > .arrow_down {
+    text-align: left;
+}
+
 .copy {
     font-size: 1.2rem;
     width: 100%;
