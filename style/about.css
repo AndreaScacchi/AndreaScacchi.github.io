@@ -1,0 +1,184 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Halant:wght@300&display=swap');
+
+/* Global variables */
+:root {
+    --ff-stencil: 'Allerta Stencil', sans-serif;
+    --ff-halant: 'Halant', sans-serif;
+    --color-1: #e79702;
+    --color-2: #000000;
+    --color-3: #ffffff;
+    --color-4: #a72100;
+    --color-5: #690606;
+}
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    background-color: var(--color-1);
+    align-content: center;
+    min-height: 100vh;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header_h1 > h1 {
+    font-size: 5rem;
+    margin: 2rem;
+    font-family: var(--ff-halant);
+    text-transform: uppercase;
+}
+
+#about_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.image {
+    background: url(../images/caesar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.content {
+    background: var(--color-3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.content h2 {
+    font-family: var(--ff-halant);
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 1;
+}
+
+.content span {
+    height: 0.5px;
+    width: 80px;
+    background: var(--color-2);
+    margin: 30px 0;
+}
+
+.content p {
+    font-family: var(--ff-halant);
+    padding-bottom: 15px;
+    font-weight: 700;
+    opacity: 1;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+.links li {
+    border: 0.5px solid var(--color-2);
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+
+.links li a {
+    font-family: var(--ff-halant);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-2);
+}
+
+.links li:hover {
+    border-color: var(--color-1);
+}
+
+.links li:hover a {
+    color: var(--color-1);
+}
+
+.vertical-line {
+    height: 30px;
+    width: 0.5px;
+    background: var(--color-2);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    #about_section {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    .image {
+        height: 100vh;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .content {
+        height: 100vh;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .content span {
+        margin: 20px 0;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .links li a {
+        font-size: 14px;
+    }
+
+    .links {
+        margin: 5px 0;
+    }
+
+    .links li {
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header_h1 > h1 {
+        font-size: 3rem;
+    }
+}
