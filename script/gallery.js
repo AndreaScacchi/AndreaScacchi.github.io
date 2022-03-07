@@ -3,6 +3,10 @@
 ///////////////////////////////
 
 /* Global Variables */
+const imageContainer = document.getElementById('images_container');
+const loader = document.getElementById('loader_img');
+let photosArray = [];
+
 
 /* Get Rome photos from Unsplash API */
 let count = 5;
@@ -12,8 +16,8 @@ const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&coun
 async function getPhotos() {
     try {
         const response = await fetch(apiUrl);
-        const data = await response.json();
-        console.log(data);
+        photosArray = await response.json();
+        displyPhotos();
     } catch (error) {
         console.log(error.message);
     }
