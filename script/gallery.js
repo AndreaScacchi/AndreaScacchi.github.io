@@ -70,8 +70,10 @@ async function getPhotos() {
         const response = await fetch(apiUrl);
         photosArray = await response.json();
         displayPhotos();
-    } catch (error) {
-        console.log(error.message);
+    } catch (err) {
+        if(err instanceof Error) {
+            console.log(`Error: ${err.message}`);
+        }
     }
 }
 
