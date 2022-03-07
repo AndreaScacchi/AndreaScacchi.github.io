@@ -5,6 +5,9 @@
 /* Global Variables */
 const imageContainer = document.getElementById('images_container');
 const loader = document.getElementById('loader_img');
+let ready = false;
+let imagesLoaded = 0;
+let totalImages = 0;
 let photosArray = [];
 
 
@@ -12,6 +15,18 @@ let photosArray = [];
 let count = 5;
 const apiKey = "ZK6O_Hy2nnJUGWGuQ7oEpKcvWi51Q1RNPbBm5VMp4k0";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=rome`;
+
+// Check if all iamges were loaded
+function imageLoaded() {
+    imagesLoaded++;
+    console.log(imagesLoaded);
+    if(imagesLoaded === totalImages) {
+        ready = true;
+        loader.hidden = true;
+        count = 30;
+        console.log("ready = ", ready);
+    }
+}
 
 // Helper functio to quickly assign elements with IDs to constants
 function setAttributes(element, attributes) {
@@ -22,6 +37,9 @@ function setAttributes(element, attributes) {
 
 // Create elements for links & photos, add to DOM
 function displayPhotos() {
+    imagesLoaded = 0;
+    totalImages = photosArray.length;
+    console.log("Total Images", totalImages);
     photosArray.forEach((photo) => {
         // Create <a> to link to Unsplash
         const item = document.createElement("a");
@@ -38,7 +56,7 @@ function displayPhotos() {
         });
 
         // Event listener, check when each is finished loading
-        //img.addEventListener("load", imageLoaded);
+        img.addEventListener("load", imageLoaded);
 
         // Put <img> inside <a>, then puth both inside imageContainer element
         item.appendChild(img);
@@ -46,6 +64,7 @@ function displayPhotos() {
     })
 }
 
+// Get photos
 async function getPhotos() {
     try {
         const response = await fetch(apiUrl);
@@ -55,4 +74,13 @@ async function getPhotos() {
         console.log(error.message);
     }
 }
+
+// Check to see if scrolling near bottom of page, load more photos
+window.addEventListener('scroll', () => {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && ready) {
+        ready = false;
+    }
+})
+
+// Function call
 getPhotos();
