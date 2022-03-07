@@ -202,11 +202,14 @@ input[type=checkbox] {
 
 #section_loader .images_container {
     margin: 10px 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #section_loader .images_container img {
     width: 100%;
     margin-top: 5px;
+    padding: 0.5rem;
 }
 
 @media screen and (max-width: 600px) {
