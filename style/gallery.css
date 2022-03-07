@@ -169,7 +169,7 @@ input[type=checkbox] {
 /* Section loader */
 #section_loader {
     background: var(--color-3);
-    min-height: 33.5vh;
+    /*min-height: 33.5vh;*/
 }
 
 #section_loader > h1 {
@@ -183,15 +183,28 @@ input[type=checkbox] {
 }
 
 #section_loader > .loader_images {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-#section_loader > .images_container {
+#section_loader > .loader_images > img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section_loader .images_container {
     margin: 10px 30%;
 }
 
-#section_loader > .images_container > img {
+#section_loader .images_container img {
     width: 100%;
     margin-top: 5px;
 }
