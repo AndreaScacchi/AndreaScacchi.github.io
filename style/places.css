@@ -168,7 +168,7 @@ input[type=checkbox] {
 
 #section_places {
     min-height: 50vh;
-    background: var(--color-3);
+    background: #e79702;
 }
 
 #section_places > div {
