@@ -166,6 +166,33 @@ input[type=checkbox] {
     width: 0%;
 }
 
+#section_places {
+    min-height: 50vh;
+    background: var(--color-3);
+}
+
+#section_places > div {
+    display: grid;
+    grid-template-rows: 10rem;
+    place-items: center;
+    justify-content: center;
+}
+
+#section_places h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: var(--ff-halant);
+    font-weight: 300;
+    padding: 2rem;
+}
+
+#section_places p {
+    text-align: center;
+    font-family: var(--ff-halant);
+    font-weight: 700;
+    padding: 2rem 7rem 2rem 7rem;
+}
+
 /* Footer */
 footer {
     display: flex;
