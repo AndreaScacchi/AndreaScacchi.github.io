@@ -195,6 +195,69 @@ input[type=checkbox] {
     padding: 2rem 7rem 2rem 7rem;
 }
 
+#section_places {
+    min-height: 30vh;
+}
+
+.workarea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    column-gap: 2rem;
+}
+
+.position {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.spot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.svg-wrapper {
+    margin-top: 2em;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: var(--color-5);
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+}
+
+#text {
+    margin-top: -35px;
+    text-align: center;
+}
+
+#text a {
+    color: var(--color-2);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+
+.svg-wrapper:hover #shape {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: var(--color-5);
+}
+
 /* Footer */
 footer {
     display: flex;
