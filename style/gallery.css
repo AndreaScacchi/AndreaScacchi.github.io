@@ -168,7 +168,12 @@ input[type=checkbox] {
 
 /* Section loader */
 #section_loader {
-    background: var(--color-3);
+    background-image: url(../images/trevi2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    /*background: var(--color-3);*/
     /*min-height: 33.5vh;*/
 }
 
@@ -180,6 +185,7 @@ input[type=checkbox] {
     font-family: var(--ff-halant);
     font-weight: 300;
     padding: 2rem;
+    color: var(--color-3);
 }
 
 #section_loader > .loader_images {
@@ -210,6 +216,11 @@ input[type=checkbox] {
     width: 100%;
     margin-top: 5px;
     padding: 0.5rem;
+    transition: transform .5s;
+}
+
+#section_loader .images_container img:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 600px) {
