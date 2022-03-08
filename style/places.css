@@ -197,6 +197,7 @@ input[type=checkbox] {
 
 #section_places {
     min-height: 30vh;
+    background: rgba(0, 0, 0, 0.801);
 }
 
 .workarea {
@@ -233,8 +234,8 @@ input[type=checkbox] {
 #shape {
     stroke-width: 6px;
     fill: transparent;
-    stroke: var(--color-5);
-    stroke-dasharray: 85 400;
+    stroke: var(--color-1);
+    stroke-dasharray: 85 100;
     stroke-dashoffset: -220;
     transition: 1s all ease;
 }
@@ -245,8 +246,9 @@ input[type=checkbox] {
 }
 
 #text a {
-    color: var(--color-2);
+    color: var(--color-3);
     text-decoration: none;
+    text-transform: capitalize;
     font-weight: 100;
     font-size: 1.1em;
 }
@@ -255,7 +257,58 @@ input[type=checkbox] {
     stroke-dasharray: 50 0;
     stroke-width: 3px;
     stroke-dashoffset: 0;
-    stroke: var(--color-5);
+    stroke: var(--color-1);
+}
+
+@media screen and (max-width: 768px) {
+    #header_places div h1 {
+        font-size: 3rem;
+    }
+    
+    #header_places div p {
+        /*font-size: 0.9rem;*/
+        width: 120%;
+    }
+
+    .workarea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header_places div p {
+        font-size: 0.9rem;
+        width: 130%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #header_places div p {
+        font-size: 0.8rem;
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header_places div h1 {
+        font-size: 2rem;
+    }
+
+    .workarea {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #header_places div p {
+        width: 155%;
+    }
 }
 
 /* Footer */
