@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.io">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/0615dc2069.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+    <!-- Anime -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/style/places.css">
+    <title>ROME || ANDREA SCACCHI</title>
+</head>
+<body>
+    <div id="loading">
+        <div class="sk-cube-grid" id="loader">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar_id">
+        <!-- LOGO -->
+        <a href="#navbar_id"><img src="/images/ROME.svg" alt="nav logo" class="logo"></a>
+        <!-- Navigation menu -->
+        <ul class="nav_links">
+            <!-- Using checkbox hack -->
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- Navigation Menus -->
+            <div class="menu">
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li class="menu_places"><a href="/">Places</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="/">Contact</a></li>
+            </div>
+        </ul>
+        <!-- Scroll indicator -->
+        <div class="progress_container">
+            <div class="progress_indicator" id="progress_bar"></div>
+        </div>
+    </nav>
+
+    <!-- Start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>About The Page</h2>
+                <p>This website gives you a great overview of Rome, its history, places you can visit and where learn more about it
+                    and information related to monuments, museums, squares, and more.
+                    Through this web page you'll find out things you need to move around the <em>Eternal City</em>.
+                </p>
+            </div>
+            <div class="sec quickLinks">
+                <h2>Places</h2>
+                <ul>
+                    <li><a href="">Colosseum</a></li>
+                    <li><a href="">Pantheon</a></li>
+                    <li><a href="">Altar of the Fatherland</a></li>
+                    <li><a href="">Piazza di Spagna</a></li>
+                    <li><a href="">Castel Sant'Angelo</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact</h2>
+                <p>You can reach me through website email</p>
+                <ul class="info">
+                    <li>
+                        <span><i class="fas fa-solid fa-envelope"></i></span>
+                        <p><a href="mailto:rome@gmail.com">rome@gmail.com</a></p>
+                    </li>
+                </ul>
+                <p>Or you can contact me via</p>
+                <p class="arrow_down">↓</p>
+                <ul class="info">
+                    <li>
+                        <span><i class="fab fa-linkedin"></i></i></i></span>
+                        <p><a href="https://www.linkedin.com/in/andrea-scacchi-10/" target="_blank">Linkedin</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-solid fa-envelope"></i></i></i></span>
+                        <p><a href="mailto:andreascacchi10@gmail.com" target="_blank">andreascacchi10@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>&copy; <span id="date"></span> <a href="https://andreascacchi.netlify.app" target="_blank">Andrea Scacchi</a>. All rights reserved.</p>
+    </div>
+    <!-- End footer -->
+
+    <!-- link the JavaScript to HTML -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/script/country_list.js"></script>
+    <script src="/script/script.js"></script>
+    <script src="/script/gallery.js"></script>
+</body>
+</html>
