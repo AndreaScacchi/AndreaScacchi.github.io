@@ -176,6 +176,7 @@ input[type=checkbox] {
     grid-template-rows: 10rem;
     place-items: center;
     justify-content: center;
+    color: var(--color-2);
 }
 
 #section_places h1 {
