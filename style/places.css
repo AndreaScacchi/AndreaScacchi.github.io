@@ -166,12 +166,12 @@ input[type=checkbox] {
     width: 0%;
 }
 
-#section_places {
+#header_places {
     min-height: 50vh;
     background: #e79702;
 }
 
-#section_places > div {
+#header_places > div {
     display: grid;
     grid-template-rows: 10rem;
     place-items: center;
@@ -179,7 +179,7 @@ input[type=checkbox] {
     color: var(--color-2);
 }
 
-#section_places h1 {
+#header_places h1 {
     font-size: 4rem;
     text-transform: uppercase;
     font-family: var(--ff-halant);
@@ -187,7 +187,7 @@ input[type=checkbox] {
     padding: 2rem;
 }
 
-#section_places p {
+#header_places p {
     text-align: center;
     font-size: 1.1rem;
     font-family: var(--ff-halant);
