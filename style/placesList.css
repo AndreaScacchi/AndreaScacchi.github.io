@@ -1,0 +1,91 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Halant:wght@300&display=swap');
+
+/* Global variables */
+:root {
+    --ff-stencil: 'Allerta Stencil', sans-serif;
+    --ff-halant: 'Halant', sans-serif;
+    --color-1: #e79702;
+    --color-2: #000000;
+    --color-3: #ffffff;
+    --color-4: #a72100;
+    --color-5: #690606;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.section_tour {
+	padding: 5rem 0;
+}
+
+.tour_title {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.tour_title h2 {
+	text-transform: uppercase;
+}
+
+.tour_title span {
+	color: var(--clr-primary-5);
+}
+
+.section_center {
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+	.section_center {
+		width: 95vw;
+	}
+}
+
+.tour_img,
+.tour_info {
+    margin-bottom: 2rem;
+}
+
+.tour_info p {
+    color: var(--color-2);
+}
+
+@media screen and (min-width: 992px) {
+    .tour_center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .tour_img,
+    .tour_info {
+        flex: 0 0 calc(50% - 2rem);
+        margin-bottom: 0;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .tour_img::before {
+        content: '';
+        position: absolute;
+        border: 0.5rem solid var(--color-2);
+        width: 100%;
+		height: 100%;
+        box-sizing: border-box;
+        top: -1.5rem;
+        left: -1.5rem;
+    }
+
+    .tour_img {
+		position: relative;
+	}
+	.tour_photo {
+		position: relative;
+	}
+}
