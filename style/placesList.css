@@ -72,6 +72,12 @@ img {
     font-weight: 700;
 }
 
+@media screen and (max-width: 400px) {
+    .tour_title {
+        font-size: 1.5rem;
+    }    
+}
+
 @media screen and (min-width: 992px) {
     .tour_center {
         display: flex;
