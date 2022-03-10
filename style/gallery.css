@@ -173,8 +173,6 @@ input[type=checkbox] {
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: fixed;
-    /*background: var(--color-3);*/
-    /*min-height: 33.5vh;*/
 }
 
 #section_loader > h1 {
