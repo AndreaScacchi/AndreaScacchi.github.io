@@ -435,9 +435,9 @@ input[type=checkbox] {
 }
 
 @media screen and (max-width: 768px) {
-    #section_1 {
-        background-attachment: unset;
-    }
+    /*#section_1 {
+        background-attachment: scroll;
+    }*/
 
     #section_1 > .rome > p {
         font-size: 1rem;  

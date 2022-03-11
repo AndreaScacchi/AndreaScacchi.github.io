@@ -221,6 +221,16 @@ input[type=checkbox] {
     transform: scale(1.2);
 }
 
+/*@media screen and (max-width: 1000px) {
+    #section_loader {
+        background: #776640;
+    }
+
+    #section_loader h1 {
+        color: var(--color-2);
+    }
+}*/
+
 @media screen and (max-width: 600px) {
     #section_loader > h1 {
         font-size: 2rem;
