@@ -851,6 +851,12 @@ form > button:hover {
     background: var(--color-2);
 }
 
+@media screen and (max-width: 768px) {
+    #section_4 {
+        background-attachment: unset;
+    }
+}
+
 @media screen and (max-width: 415px) {
     #section_4 > .wrapper {
         width: 300px;
