@@ -83,7 +83,7 @@ $(function() {
 });
 
 
-function loadDeviceSpecificBackground() {
+/*function loadDeviceSpecificBackground() {
     if(navigator.userAgent.toLowerCase().match(/android/)) {
         section1.style.backgroundAttachment = "fixed";
         section4.style.backgroundAttachment = "fixed";
@@ -92,7 +92,7 @@ function loadDeviceSpecificBackground() {
         section4.style.backgroundAttachment = "fixed";
     }
 }
-loadDeviceSpecificBackground();
+loadDeviceSpecificBackground();*/
 
 
 
