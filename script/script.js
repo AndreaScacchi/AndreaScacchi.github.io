@@ -88,8 +88,8 @@ function loadDeviceSpecificBackground() {
         section1.style.backgroundAttachment = "fixed";
         section4.style.backgroundAttachment = "fixed";
     } else if(navigator.userAgent.toLowerCase().match(/iphone/) || navigator.userAgent.toLowerCase().match(/ipad/)) {
-        section1.style.backgroundAttachment = "initial";
-        section4.style.backgroundAttachment = "initial";
+        section1.style.backgroundAttachment = "unset";
+        section4.style.backgroundAttachment = "unset";
     }
 }
 loadDeviceSpecificBackground();
