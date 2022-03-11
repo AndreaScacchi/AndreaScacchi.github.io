@@ -92,7 +92,7 @@ function loadDeviceSpecificBackground() {
     } else if(navigator.userAgent.toLowerCase().match(/iphone/) || navigator.userAgent.toLowerCase().match(/ipad/)) {
         section1.style.backgroundAttachment = "scroll";
         section4.style.backgroundAttachment = "scroll";
-        sectionGallery.style.backgroundAttachment = "unset";
+        sectionGallery.style.backgroundColor = "#776640";
     }
 }
 loadDeviceSpecificBackground();
