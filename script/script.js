@@ -38,6 +38,16 @@ window.addEventListener('scroll', function() {
     }
 })
 
+/* Scroll into contact section */
+document.querySelector('.contact_link').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    if(e.target.classList.contains("contact_link")) {
+        const id = e.target.getAttribute("href");
+        document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    }
+});
+
 /* Scroll indicator */
 window.onscroll = function() {scrollIndicator()};
 function scrollIndicator() {
