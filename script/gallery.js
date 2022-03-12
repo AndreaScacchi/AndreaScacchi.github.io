@@ -10,10 +10,12 @@ let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
 const sectionGallery = document.getElementById("section_loader");
+const title = document.querySelector('.gallery_title');
 
 function galleryLoading() {
   if (navigator.userAgent.toLowerCase().match(/android/)) {
     sectionGallery.style.backgroundAttachment = "fixed";
+    title.style.color = "#fff";
   } else if (
     navigator.userAgent.toLowerCase().match(/iphone/) ||
     navigator.userAgent.toLowerCase().match(/ipad/)
