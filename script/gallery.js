@@ -18,7 +18,8 @@ function galleryLoading() {
     navigator.userAgent.toLowerCase().match(/iphone/) ||
     navigator.userAgent.toLowerCase().match(/ipad/)
   ) {
-    sectionGallery.style.backgroundColor = "#776640";
+    sectionGallery.style.backgroundImage = "none";
+    sectionGallery.style.backgroundColor = "#e9ecef";
   }
 }
 galleryLoading();
