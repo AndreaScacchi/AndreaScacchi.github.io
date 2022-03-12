@@ -94,9 +94,9 @@ function loadDeviceSpecificBackground() {
     navigator.userAgent.toLowerCase().match(/iphone/) ||
     navigator.userAgent.toLowerCase().match(/ipad/)
   ) {
+    progress_bar.style.display = "none";
     section1.style.backgroundAttachment = "scroll";
     section4.style.backgroundAttachment = "scroll";
-    progress_bar.style.display = "none";
   }
 }
 loadDeviceSpecificBackground();
