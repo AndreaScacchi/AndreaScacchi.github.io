@@ -96,6 +96,7 @@ function loadDeviceSpecificBackground() {
   ) {
     section1.style.backgroundAttachment = "scroll";
     section4.style.backgroundAttachment = "scroll";
+    progress_bar.style.display = "none";
   }
 }
 loadDeviceSpecificBackground();
