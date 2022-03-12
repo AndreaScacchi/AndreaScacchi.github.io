@@ -73,8 +73,8 @@ input.addEventListener("change", () => {
 
 /* Scroll down button into header using jQuery*/
 const scrollDown = document.querySelector(".scroll_down");
-const section1 = document.getElementById("section_1");
-const section4 = document.getElementById("section_4");
+/*const section1 = document.getElementById("section_1");
+const section4 = document.getElementById("section_4");*/
 
 $(function () {
   $(".scroll_down").click(function () {
@@ -86,7 +86,7 @@ $(function () {
   });
 });
 
-function loadDeviceSpecificBackground() {
+/*function loadDeviceSpecificBackground() {
   if (navigator.userAgent.toLowerCase().match(/android/)) {
     section1.style.backgroundAttachment = "fixed";
     section4.style.backgroundAttachment = "fixed";
@@ -99,4 +99,4 @@ function loadDeviceSpecificBackground() {
     section4.style.backgroundAttachment = "scroll";
   }
 }
-loadDeviceSpecificBackground();
+loadDeviceSpecificBackground();*/
