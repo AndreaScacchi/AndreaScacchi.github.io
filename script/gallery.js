@@ -11,7 +11,7 @@ let totalImages = 0;
 let photosArray = [];
 const sectionGallery = document.getElementById("section_loader");
 
-/*function galleryLoading() {
+function galleryLoading() {
   if (navigator.userAgent.toLowerCase().match(/android/)) {
     sectionGallery.style.backgroundAttachment = "fixed";
   } else if (
@@ -21,7 +21,7 @@ const sectionGallery = document.getElementById("section_loader");
     sectionGallery.style.backgroundColor = "#776640";
   }
 }
-galleryLoading();*/
+galleryLoading();
 
 /* Get Rome photos from Unsplash API */
 let count = 10;
