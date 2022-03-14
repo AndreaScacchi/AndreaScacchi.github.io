@@ -15,7 +15,7 @@ This website is based mainly on *HTML*, *CSS* and *JavaScript*. However, there a
 - *Anime*: library to implement the animations on text used thanks to [Tobias Ahlin](https://tobiasahlin.com/moving-letters/).
 - *[jQuery](https://jquery.com/)*: used to scroll down the header button into the first section, and to load the spinner.
 - *[Figma](https://www.figma.com/)*: used to create the logo *ROME*.
-- *[Favicon](https://favicon.io/)*: used to create the window logo.
+- *[Favicon](https://favicon.io/)*: used to create the tab logo.
 - *[Font Awesome](https://fontawesome.com/)*: used to get icons.
 - *[Google Fonts](https://fonts.google.com/)*: used to give a different text style.
 - *[Flag CDN](https://flagcdn.com/)*: used to get the flag icons.
