@@ -23,7 +23,7 @@ This website is based mainly on *HTML*, *CSS* and *JavaScript*. However, there a
 - *[Unsplash API](https://unsplash.com/)*: used to retrieve automatically images of *Rome*.
 
 ## Website URL
-[ROME](https://rome-andreascacchi.netlify.app);
+**_[ROME](https://rome-andreascacchi.netlify.app)_**
 
 ## Author
 **_[Andrea Scacchi](https://andreascacchi.netlify.app/)_**
