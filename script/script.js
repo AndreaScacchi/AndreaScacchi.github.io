@@ -62,6 +62,7 @@ function scrollIndicator() {
 // Input hamburger menu
 const input = document.getElementById("checkbox_toggle");
 const progress_bar = document.querySelector(".progress_container");
+const menu = document.querySelector(".menu");
 
 input.addEventListener("change", () => {
   if (input.checked) {
@@ -73,8 +74,6 @@ input.addEventListener("change", () => {
 
 /* Scroll down button into header using jQuery*/
 const scrollDown = document.querySelector(".scroll_down");
-/*const section1 = document.getElementById("section_1");
-const section4 = document.getElementById("section_4");*/
 
 $(function () {
   $(".scroll_down").click(function () {
@@ -85,18 +84,3 @@ $(function () {
     return false;
   });
 });
-
-/*function loadDeviceSpecificBackground() {
-  if (navigator.userAgent.toLowerCase().match(/android/)) {
-    section1.style.backgroundAttachment = "fixed";
-    section4.style.backgroundAttachment = "fixed";
-  } else if (
-    navigator.userAgent.toLowerCase().match(/iphone/) ||
-    navigator.userAgent.toLowerCase().match(/ipad/)
-  ) {
-    progress_bar.style.display = "none";
-    section1.style.backgroundAttachment = "scroll";
-    section4.style.backgroundAttachment = "scroll";
-  }
-}
-loadDeviceSpecificBackground();*/

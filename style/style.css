@@ -80,7 +80,7 @@ input[type=checkbox] {
 
 .hamburger {
     display: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     user-select: none;
 }
 
@@ -176,7 +176,6 @@ input[type=checkbox] {
 }
 
 .header_div > .anime {
-    /*font-weight: 900;*/
     font-size: 3.5em;
 }
 
@@ -198,7 +197,6 @@ input[type=checkbox] {
 @keyframes color-change {
     60%{color: var(--color-1);}
     40%{color: var(--color-3);}
-    /*75%{color: var(--color-4);}*/
 }
 
 .scroll_down {
@@ -272,15 +270,10 @@ input[type=checkbox] {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /*background-color: var(--color-5);*/
     color: var(--color-3);
     font-weight: bold;
     font-family: var(--ff-halant);
 }
-
-/*#section_1:hover {
-    opacity: 1;
-}*/
 
 #section_1 > .rome {
     display: flex;
@@ -311,29 +304,11 @@ input[type=checkbox] {
 }
 
 #section_1 > .rome > .explore_btn > a {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;*/
     text-align: center;
-    /*margin: 7rem;*/
-    /*width: 75%;
-    height: 25%;*/
     font-size: 1rem;
     padding: 0 1.5rem 0 1.5rem;
-    /*padding-right: 1.5rem;
-    padding-left: 1.5rem;*/
     text-decoration: none;
     text-transform: uppercase;
-    /*color: var(--color-1);*/
-    /*background-color: var(--color-2);*/
-    /*border: 1px solid var(--color-3);
-    border-radius: 2rem;
-    padding: 0.5rem;
-    box-shadow: 5px 5px 0 black,
-		-5px -5px 0 black,
-		-5px 5px 0 black,
-		5px -5px 0 black;
-	transition: 500ms ease-in-out;*/
 }
 
 .button_rome, .button_rome::after {
@@ -373,60 +348,51 @@ input[type=checkbox] {
 }
 
 @keyframes glitch {
-  0% {
-    clip-path: var(--slice-1);
-    transform: translate(-20px, -10px);
-  }
-  10% {
-    clip-path: var(--slice-3);
-    transform: translate(10px, 10px);
-  }
-  20% {
-    clip-path: var(--slice-1);
-    transform: translate(-10px, 10px);
-  }
-  30% {
-    clip-path: var(--slice-3);
-    transform: translate(0px, 5px);
-  }
-  40% {
-    clip-path: var(--slice-2);
-    transform: translate(-5px, 0px);
-  }
-  50% {
-    clip-path: var(--slice-3);
-    transform: translate(5px, 0px);
-  }
-  60% {
-    clip-path: var(--slice-4);
-    transform: translate(5px, 10px);
-  }
-  70% {
-    clip-path: var(--slice-2);
-    transform: translate(-10px, 10px);
-  }
-  80% {
-    clip-path: var(--slice-5);
-    transform: translate(20px, -10px);
-  }
-  90% {
-    clip-path: var(--slice-1);
-    transform: translate(-10px, 0px);
-  }
-  100% {
-    clip-path: var(--slice-1);
-    transform: translate(0);
-  }
+    0% {
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+    }
+    10% {
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+    20% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 10px);
+    }
+    30% {
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+    40% {
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+    50% {
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+    60% {
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+    70% {
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+    80% {
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+    90% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+    }
+    100% {
+        clip-path: var(--slice-1);
+        transform: translate(0);
+    }
 }
-
-/*#section_1 > .rome > .explore_btn > a:hover {
-    opacity: 1;
-    box-shadow: 20px 5px 0 black, -20px -5px 0 black;
-}
-
-#section_1 > .rome > .explore_btn > a:focus {
-	outline: none;
-}*/
 
 @media screen and (max-width: 1000px) {
     #section_1 > .rome > p {
@@ -435,9 +401,6 @@ input[type=checkbox] {
 }
 
 @media screen and (max-width: 768px) {
-    /*#section_1 {
-        background-attachment: scroll;
-    }*/
 
     #section_1 > .rome > p {
         font-size: 1rem;  
@@ -1055,7 +1018,6 @@ footer .container .sec.aboutus p {
 .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    /*background-color: var(--color-1);*/
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
             animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
