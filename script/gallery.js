@@ -22,6 +22,7 @@ function galleryLoading() {
   ) {
     sectionGallery.style.backgroundImage = "none";
     sectionGallery.style.backgroundColor = "#e9ecef";
+    title.style.color = "#000";
   }
 }
 galleryLoading();
