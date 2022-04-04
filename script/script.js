@@ -67,9 +67,9 @@ const menu = document.querySelector(".menu");
 input.addEventListener("change", () => {
   if (input.checked) {
     progress_bar.style.display = "none";
-  } else {
+  } /*else {
     progress_bar.style.display = "block";
-  }
+  }*/
 });
 
 /* Scroll down button into header using jQuery*/

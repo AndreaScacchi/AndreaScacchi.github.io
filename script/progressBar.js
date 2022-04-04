@@ -6,8 +6,8 @@ function progressBarSpecifDevice() {
         navigator.userAgent.toLowerCase().match(/ipad/)
     ) {
         progress_container.style.display = "none";
-    } else {
+    } /*else {
         progress_container.style.display = "block";
-    }
+    }*/
 }
 progressBarSpecifDevice();
