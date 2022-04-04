@@ -60,17 +60,16 @@ function scrollIndicator() {
 }
 
 // Input hamburger menu
-const input = document.getElementById("checkbox_toggle");
+/*const input = document.getElementById("checkbox_toggle");
 const progress_bar = document.querySelector(".progress_container");
-const menu = document.querySelector(".menu");
 
 input.addEventListener("change", () => {
   if (input.checked) {
     progress_bar.style.display = "none";
-  } /*else {
+  } else {
     progress_bar.style.display = "block";
-  }*/
-});
+  }
+});*/
 
 /* Scroll down button into header using jQuery*/
 const scrollDown = document.querySelector(".scroll_down");
