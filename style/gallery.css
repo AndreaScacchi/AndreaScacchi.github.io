@@ -183,7 +183,7 @@ input[type=checkbox] {
     font-family: var(--ff-halant);
     font-weight: 300;
     padding: 2rem;
-    color: var(--color-2);
+    color: var(--color-3);
 }
 
 #section_loader > .loader_images {
