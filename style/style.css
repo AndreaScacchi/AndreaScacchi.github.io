@@ -125,9 +125,14 @@ input[type=checkbox] {
     .header_div > .anime {
         display: none;
     }
-
+    /*Header video background*/
     .header_div .second_h1 {
+        position: relative;
+        height: 100vh;
+        text-align: center;
         display: inline-block;
+        align-items: center;
+        justify-content: center;
     }
 
     body {
