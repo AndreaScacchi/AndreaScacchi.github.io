@@ -190,6 +190,15 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .header_div > .anime {
     font-size: 3.5em;
 }
