@@ -26,6 +26,11 @@ date.innerHTML = new Date().getFullYear();
 /* HEADER */
 ///////////////////////////////
 
+// Fix video autoplay
+/*let video = document.getElementById('rome_video');
+video.muted = true;
+video.play();*/
+
 /* Fixed Navbar */
 const navbar = document.getElementById("navbar_id");
 window.addEventListener("scroll", function () {
