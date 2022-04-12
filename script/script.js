@@ -72,7 +72,7 @@ input.addEventListener("change", () => {
 });*/
 
 /* Scroll down button into header using jQuery*/
-const scrollDown = document.querySelector(".scroll_down");
+/*const scrollDown = document.querySelector(".scroll_down");*/
 
 $(function () {
   $(".scroll_down").click(function () {
